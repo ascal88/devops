@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.ajax({
-        url: "/hello"
+        url: "devops/hello"
     }).then(function(data) {
         document.getElementById('hello').append(data)
     });
